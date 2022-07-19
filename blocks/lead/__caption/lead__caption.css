@@ -3,10 +3,22 @@
   margin: 0;
   font-weight: 400;
   font-size: 10px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__caption {
+    margin-left: calc((100vw - 928px)/2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
     margin-left: 16px;
   }

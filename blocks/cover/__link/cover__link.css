@@ -33,26 +33,23 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover__link {
-    max-width: 1024px;
-    max-height: 640px;
-    padding: 195px 232px;
+    max-width: 1279px;
+    padding: 19vw 23vw;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .cover__link {
-    max-width: 768px;
-    max-height: 480px;
-    padding: 115px 104px;
+    max-width: 1023px;
+    padding: 15vw 15vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cover__link {
-    max-width: 320px;
-    max-height: 200px;
-    padding: 32px 16px;
+    max-width: 767px;
+    padding: 16vw 5vw;
   }
 }

@@ -5,23 +5,27 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .footer__columns {
-    max-width: 928px;
+    max-width: 1279px;
+    padding: 0 48px;
+    margin: 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .footer__columns {
-    max-width: 720px;
+    max-width: 1023px;
+    padding: 0 24px;
+    margin: 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer__columns {
     max-width: 186px;
-    min-height: 310px;
-    margin: 0 0 0 16px;
+    padding: 0 16px;
     flex-direction: column;
+    margin: 0;
   }
 }
