@@ -53,3 +53,10 @@
     padding: 16vw 5vw;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    max-width: 320px;
+    padding: calc((100vw*200/320)*(33/200)) 5vw;
+  }
+}
