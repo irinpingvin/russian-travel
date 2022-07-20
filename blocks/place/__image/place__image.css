@@ -1,5 +1,5 @@
 .place__image {
   width: 100%;
   object-fit: contain;
-  grid-area: place__image
+  grid-area: place__image;
 }
