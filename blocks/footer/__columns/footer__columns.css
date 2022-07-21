@@ -17,7 +17,6 @@
   .footer__columns {
     max-width: 1023px;
     padding: 0 24px;
-    margin: 0;
   }
 }
 
@@ -26,6 +25,5 @@
     max-width: 186px;
     padding: 0 16px;
     flex-direction: column;
-    margin: 0;
   }
 }

@@ -5,8 +5,7 @@
   text-align: center;
   color: #FFFFFF;
   margin: 0 0 32px;
-  white-space: pre-line;
-  font-family: 'Inter-Black';
+  max-width: 720px;
 }
 
 @media screen and (max-width: 767px) {

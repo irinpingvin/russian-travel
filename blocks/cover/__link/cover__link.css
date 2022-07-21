@@ -7,8 +7,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 1184px;
-  max-height: 740px;
-  padding: 245px 312px;
+  padding: 245px 0;
   box-sizing: border-box;
   margin: 0 auto;
   text-decoration: none;
@@ -36,27 +35,27 @@
 @media screen and (max-width: 1279px) {
   .cover__link {
     max-width: 1279px;
-    padding: 19vw 23vw;
+    padding: 19vw 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__link {
     max-width: 1023px;
-    padding: 15vw 15vw;
+    padding: 15vw 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__link {
     max-width: 767px;
-    padding: 16vw 5vw;
+    padding: 16vw 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__link {
     max-width: 320px;
-    padding: calc((100vw*200/320)*(33/200)) 5vw;
+    padding: calc((100vw*200/320)*(33/200)) 0;
   }
 }

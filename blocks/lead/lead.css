@@ -20,7 +20,6 @@
   .lead {
     padding: 48px calc((100vw - 768px)*48/(1024 - 768)) 0;
     max-width: 1023px;
-    margin: 0;
   }
 }
 
@@ -28,6 +27,5 @@
   .lead {
     padding: 48px 0 0;
     max-width: 768px;
-    margin: 0;
   }
 }

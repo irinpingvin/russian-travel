@@ -4,7 +4,6 @@
   line-height: 1.63;
   color: #FFFFFF;
   margin: 0 0 26px;
-  white-space: pre-line;
 }
 
 .place__paragraph:last-child {
@@ -13,7 +12,6 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    font-size: 18px;
     margin-bottom: 25px;
   }
 }
@@ -21,13 +19,11 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    margin-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
     font-size: 5vw;
-    margin-bottom: 25px;
   }
 }

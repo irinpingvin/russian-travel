@@ -5,33 +5,30 @@
   text-align: center;
   color: #FFFFFF;
   margin: 0 auto 64px;
-  white-space: pre-line;
+  max-width: 640px;
 }
 
 @media screen and (max-width: 1279px) {
-  .lead_subtitle {
-    margin: 0 auto 56px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .lead_subtitle {
+  .lead__subtitle {
     margin: 0 0 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .lead_subtitle {
+  .lead__subtitle {
     margin: 0 0 40px;
-    font-size: 3vw;
     line-height: 1.25;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .lead_subtitle {
-    margin: 0 0 40px;
+@media screen and (max-width: 600px) {
+  .lead__subtitle {
     font-size: 5vw;
-    line-height: 1.25;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    max-width: 288px;
   }
 }

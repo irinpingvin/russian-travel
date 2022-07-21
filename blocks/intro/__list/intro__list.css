@@ -4,5 +4,6 @@
   font-size: 12px;
   line-height: 1.5;
   color: #FFFFFF;
-  white-space: pre-line;
+  list-style: none;
+  padding-inline-start: 0px;
 }

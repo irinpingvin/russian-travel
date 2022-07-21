@@ -9,18 +9,6 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1279px) {
-  .lead__caption {
-    margin-left: calc((100vw - 928px)/2);
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .lead__caption {
-    margin-left: 0;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
