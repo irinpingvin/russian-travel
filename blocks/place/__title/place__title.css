@@ -11,7 +11,12 @@
   .place__title {
     font-size: calc(42px + (30/(1023 - 768))*(100vw - 768px));
     line-height: 1.1;
-    white-space: pre-line;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .place__title {
+    max-width: 330px;
   }
 }
 
@@ -19,7 +24,7 @@
   .place__title {
     font-size: 42px;
     margin-left: 16px;
-    white-space: normal;
+    max-width: 100%;
   }
 }
 
